@@ -9,6 +9,7 @@ body,
   height: 100vh;
   margin: 0;
 }
+
 body, input, button, select, textarea {
   font-size: 1.6rem;
   font-family: Montserrat, Helvetica, sans-serif;
@@ -60,9 +61,11 @@ footer {
   display:flex;
   flex-wrap: wrap;
 }
+
 .main {
   flex: 3 60rem
 }
+
 .sidebar {
   flex: 1 20rem;
 }
@@ -120,4 +123,16 @@ footer {
 }
 .button.primary {
   background-color: #f0c040;
+}
+
+/* Filter */
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+.filter div {
+  flex: 1;
 }
